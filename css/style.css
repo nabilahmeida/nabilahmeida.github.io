@@ -1,0 +1,135 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    box-sizing: border-box;
+    background-color: white;
+    background-image: url('../image/background.jpg');
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    
+    height: 80px;
+    width: 100%;
+    margin: auto;
+    background-color: #fff;
+    position: fixed;
+    float: right;
+}
+header img {
+    height: 80px;
+    float: left;
+}
+ul {
+    float: right;
+    width: 400px;
+    overflow: hidden; 
+}
+li{
+    line-height: 80px;
+    width: auto;
+    list-style-type: none;
+    float: left;  
+ }
+li a{
+    display: inline;
+    text-decoration: none;
+    padding: 16px;
+}
+li a:hover{
+    background-color: aquamarine;
+    border: 1px solid white;
+    border-radius: 9px;
+
+}
+#content{
+    padding-top: 100px;
+    height: 500px;
+    width : 900px;
+    margin: auto;
+    background-color: rgba(241, 143, 77, 0.90);
+    min-height: 900px; 
+}
+p{
+    padding-left: 12px;
+    padding-top: 20px;
+}
+#aku{
+     width: 200px;
+     border-radius: 300px;
+     margin: auto;
+     padding-left: 350px;
+     padding-right: 350px;
+     padding-top: 16px;
+     padding-bottom: 20px;
+ }
+h1{
+    background-color: aliceblue;
+    width: 400px;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    
+}
+#home{
+    text-align: center;
+    padding-top: 100px;
+    min-height: 400px;
+    width: 800px;
+    margin: auto;
+    font-size: 50px;
+    color: cadetblue;
+    font-weight: bolder;
+    border-collapse: collapse;
+    border-radius: 40px;
+    background-color: rgba(104, 97, 92, 0.9);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+section img{
+
+    border-radius: 30px;
+    width: 200px;
+    height: 150px;
+    margin: auto;
+    padding-top: 15px;
+    padding-left: 12px;
+}
+#about{
+    text-align: left;
+    padding-top: 20px;
+    width: 900px;
+    margin: auto;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    max-width: 800px;
+    padding-left: 15;
+}
+table{
+    
+    margin: auto;
+    width: 700px;
+    border-collapse: collapse;
+    color: black;
+    background-color: gray;
+}
+
+tr:nth-child(even){
+    background-color: white;
+}
+#footer{
+    text-align: center;
+    line-height: 50px;
+    background-color: white;
+}
+
+
+
+
+    
+
+
